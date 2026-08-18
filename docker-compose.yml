@@ -1,0 +1,7 @@
+services:
+  kartek-learn:
+    build: .
+    container_name: kartek-learn
+    restart: unless-stopped
+    ports:
+      - "3005:80"
